@@ -1,75 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: #0f0f1a;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#hero {
+  height: 100vh;
+  background: url('../img/hero-bg.jpg') center/cover no-repeat;
   color: white;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 50px;
-}
-
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #ccc;
-}
-
-.hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 80px 50px;
+  justify-content: center;
+  flex-direction: column;
 }
-
-.hero-text {
-  max-width: 500px;
-}
-
-.subtitle {
-  color: #7b61ff;
-  margin-bottom: 10px;
-}
-
-h1 span {
-  color: #fff;
-}
-
-button {
-  margin-top: 20px;
-  padding: 12px 24px;
-  background: #ff6b6b;
-  border: none;
-  color: white;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.hero-image {
-  position: relative;
-}
-
-.hero-image img {
-  width: 300px;
-  border-radius: 10px;
-}
-
-/* Floating icons */
-.icon {
-  position: absolute;
-  background: white;
-  color: black;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.icon1 { top: -20px; left: 50px; }
-.icon2 { top: 100px; right: -20px; }
-.icon3 { bottom: -20px; left: 100px; }
